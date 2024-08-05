@@ -16,11 +16,17 @@
             <h2>¿Qué es un control de versiones?</h2>
             <p>Un control de versiones es un sistema que registra los cambios realizados en un conjunto de archivos a lo largo del tiempo, de modo que puedas recuperar versiones específicas más adelante.</p>
         </section>
+        <div class="img-container">
+            <div class="img"><img src="img/version.png" alt="" width="300px"></div>
+        </div>
         
         <section id="pregunta2">
             <h2>¿Qué es GIT?</h2>
             <p>GIT es un sistema de control de versiones distribuido, diseñado para manejar desde proyectos pequeños hasta muy grandes con velocidad y eficiencia.</p>
         </section>
+        <div class="img-container">
+            <div class="img"><img src="img/git.png" alt="" width="300px"></div>
+        </div>
         
         <section id="pregunta3">
             <h2>¿Qué es un repositorio?</h2>
@@ -28,16 +34,25 @@
             <p>Repositorio local: Es la copia del repositorio que resides en tu máquina.</p>
             <p>Repositorio remoto: Es una copia del repositorio que reside en un servidor externo, como GitHub.</p>
         </section>
+        <div class="img-container">
+            <div class="img"><img src="img/Repositorios.PNG" alt="" width="300px"></div>
+        </div>
         
         <section id="pregunta4">
             <h2>¿Qué es GITHUB?</h2>
             <p>GitHub es una plataforma en línea para alojar proyectos que utilizan GIT como sistema de control de versiones. Permite colaborar con otros desarrolladores y facilita la gestión de repositorios.</p>
         </section>
+        <div class="img-container">
+            <div class="img"><img src="img/GitHub-Logo.png" alt="" width="300px"></div>
+        </div>
         
         <section id="pregunta5">
             <h2>¿Qué es una rama en GIT y para qué sirve?</h2>
             <p>Una rama en GIT es una línea de desarrollo independiente creada a partir de la rama principal (normalmente llamada <code>master</code>). Sirve para trabajar en nuevas funcionalidades o solucionar problemas sin interferir con el trabajo en la rama principal.</p>
         </section>
+        <div class="img-container">
+            <div class="img"><img src="img/rama.png" alt="" width="300px"></div>
+        </div>
         
         <section id="pregunta6">
             <h2>¿Cuáles son los estados en GIT?</h2>
@@ -48,18 +63,61 @@
                 <li><strong>Confirmado:</strong> Los cambios han sido guardados de manera permanente en la base de datos.</li>
             </ul>
         </section>
+        <div class="img-container">
+            <div class="img"><img src="img/estado.png" alt="" width="300px"></div>
+        </div>
         
         <section id="pregunta7">
             <h2>¿Qué es la terminal, consola o línea de comandos y para qué sirve?</h2>
             <p>La terminal (o consola o línea de comandos) es una interfaz de texto que permite interactuar con el sistema operativo mediante comandos. Sirve para ejecutar tareas como la gestión de archivos, instalación de software, y ejecución de programas, entre otros.</p>
         </section>
+        <div class="img-container">
+            <div class="img"><img src="img/terminal.png" alt="" width="300px"></div>
+        </div>
 
         <section id="pregunta7">
             <h2>Escribir el funcionamiento de cada uno de los siguientes comandos:</h2>
-            <p></p>
+                <li><strong>ls</strong></li>
+                Función: Lista los archivos y directorios en el directorio actual. <br>
+                Uso: Simplemente escribe ls y presiona Enter en la terminal. <br>
+                Ejemplo: Muestra una lista de archivos y subdirectorios en el directorio actual.
+                <li><strong>cd "directorio" </strong></li>
+                Función: Cambia el directorio de trabajo actual a uno especificado. <br>
+                Uso: Escribe cd seguido del nombre del directorio al que quieres moverte. <br>
+                Ejemplo: cd documentos te llevará al directorio llamado "documentos" dentro del directorio actual.
+                <li><strong>cd ..</strong></li>
+                Función: Cambia al directorio padre (directorios superiores) del directorio actual. <br>
+                Uso: Simplemente escribe cd .. y presiona Enter. <br>
+                Ejemplo:Si estás en /home/usuario/documentos, cd .. te llevará a /home/usuario.
+                <li><strong>pwd</strong></li>
+                Función: Muestra la ruta completa del directorio actual (Print Working Directory). <br>
+                Uso: Simplemente escribe pwd y presiona Enter. <br>
+                Ejemplo: Muestra la ruta completa del directorio actual, por ejemplo /home/usuario/documentos.
+                <li><strong>mkdir "nombre"</strong></li>
+                Función: Crea un nuevo directorio con el nombre especificado. <br>
+                Uso: Escribe mkdir seguido del nombre que deseas darle al nuevo directorio. <br>
+                Ejemplo: mkdir proyecto1 creará un nuevo directorio llamado "proyecto1" en el directorio actual.
+                <li><strong>touch "nombre"</strong></li>
+                Función: Crea un nuevo archivo vacío con el nombre especificado. <br>
+                Uso: Escribe touch seguido del nombre que deseas darle al nuevo archivo. <br>
+                Ejemplo: touch archivo.txt creará un archivo vacío llamado "archivo.txt" en el directorio actual.
+                <li><strong>rm "nombre"</strong></li>
+                Función: Elimina (borra) un archivo. <br>
+                Uso: Escribe rm seguido del nombre del archivo que deseas eliminar. <br>
+                Ejemplo: rm archivo.txt eliminará el archivo llamado "archivo.txt" en el directorio actual.
+                <li><strong>cp "nombre" "directorio"</strong></li>
+                Función: Copia un archivo en otro directorio. <br>
+                Uso: Escribe cp seguido del nombre del archivo que deseas copiar y luego la ruta del directorio de destino. <br>
+                Ejemplo: cp archivo.txt /home/usuario/backups copiará el archivo "archivo.txt" al directorio "/home/usuario/backups".
+                <li><strong>mv "nombre" "directorio"</strong></li>
+                Función: Mueve un archivo a otro directorio o le cambia el nombre. <br>
+                Uso: Escribe mv seguido del nombre del archivo que deseas mover y luego la ruta del directorio de destino o el nuevo nombre. <br>
+                Ejemplo:
+                mv archivo.xt /home/usuario/documentos moverá el archivo "archivo.txt" al directorio "/home/usuario/documentos".
+                mv archivo.txt nuevo_nombre.txt renombrará el archivo "archivo.txt" a "nuevo_nombre.txt" en el mismo directorio.
+                
         </section>
     </main>
 
-    <script src="script.js"></script>
 </body>
 </html>
